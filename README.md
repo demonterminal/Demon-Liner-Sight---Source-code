@@ -26,12 +26,12 @@ Android
 MS Windows 10 & MS Windows 11
 
 # Source Code Explanation of Demon Liner Sight
-./root/
---main.cxx : This file contains all the commands executable format which allows you to run commands on CLI
---sys_commands.hpp : This file contains all the system commands of Demon Liner Sight (Also known as std command) make sure to modify this if adding custom commands
---sys_func.hpp : This file contains all the callable functions for CLI (make sure to edit this if dding custom functions)
---sys_var.hpp : This file contains all the non callable but important and critical variables for C++ CLI.
-./root/commands/ : This directory contains all the commands with extension .hpp for c++ to execute directly.
-./root/config/boot/ : This contains CLI Startup files which are necessary to load the CLI custom data
+./root/ <br>
+--main.cxx : This file contains all the commands executable format which allows you to run commands on CLI <br>
+--sys_commands.hpp : This file contains all the system commands of Demon Liner Sight (Also known as std command) make sure to modify this if adding custom commands<br>
+--sys_func.hpp : This file contains all the callable functions for CLI (make sure to edit this if dding custom functions)<br>
+--sys_var.hpp : This file contains all the non callable but important and critical variables for C++ CLI.<br>
+./root/commands/ : This directory contains all the commands with extension .hpp for c++ to execute directly.<br>
+./root/config/boot/ : This contains CLI Startup files which are necessary to load the CLI custom data<br>
 
 # Congrattulations for completing the reading! If you are still here then why wait go ahead and install this source code in your project 
